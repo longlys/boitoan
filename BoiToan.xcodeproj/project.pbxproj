@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14BEB37F3278A5A8B9965D36 /* libPods-BoiToan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB1BF5E72B2271E5079B449 /* libPods-BoiToan.a */; };
+		7D1A673B21D1404B0066C2CD /* datachitayrandom.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D1A673A21D1404A0066C2CD /* datachitayrandom.json */; };
+		7D1D570E21D262A4008A92EC /* ic_boi_seleted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D570B21D262A3008A92EC /* ic_boi_seleted@3x.png */; };
+		7D1D570F21D262A4008A92EC /* ic_boi_seleted.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D570C21D262A4008A92EC /* ic_boi_seleted.png */; };
+		7D1D571021D262A4008A92EC /* ic_boi_seleted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D570D21D262A4008A92EC /* ic_boi_seleted@2x.png */; };
+		7D1D571A21D290A5008A92EC /* ic_tay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D571721D290A4008A92EC /* ic_tay@3x.png */; };
+		7D1D571B21D290A5008A92EC /* ic_tay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D571821D290A4008A92EC /* ic_tay@2x.png */; };
+		7D1D571C21D290A5008A92EC /* ic_tay.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D571921D290A5008A92EC /* ic_tay.png */; };
+		7D1D571F21D296DA008A92EC /* CMCMNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D571E21D296DA008A92EC /* CMCMNavigationViewController.m */; };
+		7D1D572221D29717008A92EC /* UIImage+MSTImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D572121D29717008A92EC /* UIImage+MSTImage.m */; };
+		7D1D572521D29A4F008A92EC /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D572421D29A4F008A92EC /* img.png */; };
+		7DD03D8421CEC0860060B60A /* BTChiTayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD03D8221CEC0860060B60A /* BTChiTayViewController.m */; };
+		7DD03D8521CEC0860060B60A /* BTChiTayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DD03D8321CEC0860060B60A /* BTChiTayViewController.xib */; };
+		7DD03D8721CECB120060B60A /* datachitay.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DD03D8621CECB120060B60A /* datachitay.json */; };
+		7DDB69B121CE1B740006D844 /* boitoanso.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB69AF21CE1B740006D844 /* boitoanso.json */; };
+		7DDB69B221CE1B740006D844 /* boitoansodt.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB69B021CE1B740006D844 /* boitoansodt.json */; };
+		7DDB69BF21CE3C670006D844 /* ic_lich@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB69B921CE3C670006D844 /* ic_lich@3x.png */; };
+		7DDB69C021CE3C670006D844 /* ic_boi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB69BA21CE3C670006D844 /* ic_boi@3x.png */; };
+		7DDB69C121CE3C670006D844 /* ic_boi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB69BB21CE3C670006D844 /* ic_boi@2x.png */; };
+		7DDB69C221CE3C670006D844 /* ic_boi.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB69BC21CE3C670006D844 /* ic_boi.png */; };
+		7DDB69C321CE3C670006D844 /* ic_lich.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB69BD21CE3C670006D844 /* ic_lich.png */; };
+		7DDB69C421CE3C670006D844 /* ic_lich@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB69BE21CE3C670006D844 /* ic_lich@2x.png */; };
+		7DDB69C821CE44620006D844 /* bg_button_dis.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB69C521CE44620006D844 /* bg_button_dis.png */; };
+		7DDB69C921CE44620006D844 /* bg_button_dis@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB69C621CE44620006D844 /* bg_button_dis@3x.png */; };
+		7DDB69CA21CE44620006D844 /* bg_button_dis@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB69C721CE44620006D844 /* bg_button_dis@2x.png */; };
+		7DDB69D421CE485D0006D844 /* bg_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB69D121CE485D0006D844 /* bg_button@3x.png */; };
+		7DDB69D521CE485D0006D844 /* bg_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB69D221CE485D0006D844 /* bg_button.png */; };
+		7DDB69D621CE485D0006D844 /* bg_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB69D321CE485D0006D844 /* bg_button@2x.png */; };
+		7DDEC16521CC09D900ACB318 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC16421CC09D900ACB318 /* AppDelegate.m */; };
+		7DDEC16D21CC09DA00ACB318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEC16C21CC09DA00ACB318 /* Assets.xcassets */; };
+		7DDEC17021CC09DA00ACB318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEC16E21CC09DA00ACB318 /* LaunchScreen.storyboard */; };
+		7DDEC17321CC09DA00ACB318 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC17221CC09DA00ACB318 /* main.m */; };
+		7DDEC18021CC0B8E00ACB318 /* DALibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC17C21CC0B8E00ACB318 /* DALibViewController.m */; };
+		7DDEC18221CC0B8F00ACB318 /* DALibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEC17E21CC0B8E00ACB318 /* DALibViewController.xib */; };
+		7DDEC1A921CC0C9D00ACB318 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEC1A821CC0C9D00ACB318 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BB1BF5E72B2271E5079B449 /* libPods-BoiToan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoiToan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1A673A21D1404A0066C2CD /* datachitayrandom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = datachitayrandom.json; sourceTree = "<group>"; };
+		7D1D570B21D262A3008A92EC /* ic_boi_seleted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_boi_seleted@3x.png"; sourceTree = "<group>"; };
+		7D1D570C21D262A4008A92EC /* ic_boi_seleted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_boi_seleted.png; sourceTree = "<group>"; };
+		7D1D570D21D262A4008A92EC /* ic_boi_seleted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_boi_seleted@2x.png"; sourceTree = "<group>"; };
+		7D1D571721D290A4008A92EC /* ic_tay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tay@3x.png"; sourceTree = "<group>"; };
+		7D1D571821D290A4008A92EC /* ic_tay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tay@2x.png"; sourceTree = "<group>"; };
+		7D1D571921D290A5008A92EC /* ic_tay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tay.png; sourceTree = "<group>"; };
+		7D1D571D21D296DA008A92EC /* CMCMNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCMNavigationViewController.h; sourceTree = "<group>"; };
+		7D1D571E21D296DA008A92EC /* CMCMNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCMNavigationViewController.m; sourceTree = "<group>"; };
+		7D1D572021D29717008A92EC /* UIImage+MSTImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MSTImage.h"; sourceTree = "<group>"; };
+		7D1D572121D29717008A92EC /* UIImage+MSTImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MSTImage.m"; sourceTree = "<group>"; };
+		7D1D572321D29779008A92EC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7D1D572421D29A4F008A92EC /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+		7DD03D8121CEC0860060B60A /* BTChiTayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTChiTayViewController.h; sourceTree = "<group>"; };
+		7DD03D8221CEC0860060B60A /* BTChiTayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTChiTayViewController.m; sourceTree = "<group>"; };
+		7DD03D8321CEC0860060B60A /* BTChiTayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BTChiTayViewController.xib; sourceTree = "<group>"; };
+		7DD03D8621CECB120060B60A /* datachitay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = datachitay.json; sourceTree = "<group>"; };
+		7DDB69AF21CE1B740006D844 /* boitoanso.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = boitoanso.json; sourceTree = "<group>"; };
+		7DDB69B021CE1B740006D844 /* boitoansodt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = boitoansodt.json; sourceTree = "<group>"; };
+		7DDB69B921CE3C670006D844 /* ic_lich@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_lich@3x.png"; sourceTree = "<group>"; };
+		7DDB69BA21CE3C670006D844 /* ic_boi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_boi@3x.png"; sourceTree = "<group>"; };
+		7DDB69BB21CE3C670006D844 /* ic_boi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_boi@2x.png"; sourceTree = "<group>"; };
+		7DDB69BC21CE3C670006D844 /* ic_boi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_boi.png; sourceTree = "<group>"; };
+		7DDB69BD21CE3C670006D844 /* ic_lich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lich.png; sourceTree = "<group>"; };
+		7DDB69BE21CE3C670006D844 /* ic_lich@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_lich@2x.png"; sourceTree = "<group>"; };
+		7DDB69C521CE44620006D844 /* bg_button_dis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_button_dis.png; sourceTree = "<group>"; };
+		7DDB69C621CE44620006D844 /* bg_button_dis@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_button_dis@3x.png"; sourceTree = "<group>"; };
+		7DDB69C721CE44620006D844 /* bg_button_dis@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_button_dis@2x.png"; sourceTree = "<group>"; };
+		7DDB69D121CE485D0006D844 /* bg_button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_button@3x.png"; sourceTree = "<group>"; };
+		7DDB69D221CE485D0006D844 /* bg_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_button.png; sourceTree = "<group>"; };
+		7DDB69D321CE485D0006D844 /* bg_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_button@2x.png"; sourceTree = "<group>"; };
+		7DDEC16021CC09D900ACB318 /* BoiToan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoiToan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDEC16321CC09D900ACB318 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DDEC16421CC09D900ACB318 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DDEC16C21CC09DA00ACB318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DDEC16F21CC09DA00ACB318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DDEC17121CC09DA00ACB318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDEC17221CC09DA00ACB318 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DDEC17B21CC0B8D00ACB318 /* DALibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALibViewController.h; sourceTree = "<group>"; };
+		7DDEC17C21CC0B8E00ACB318 /* DALibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALibViewController.m; sourceTree = "<group>"; };
+		7DDEC17E21CC0B8E00ACB318 /* DALibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DALibViewController.xib; sourceTree = "<group>"; };
+		7DDEC1A821CC0C9D00ACB318 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E22E8EE550B0C47AE8C518D1 /* Pods-BoiToan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoiToan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoiToan/Pods-BoiToan.debug.xcconfig"; sourceTree = "<group>"; };
+		E892F4001250C482DDE636C6 /* Pods-BoiToan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoiToan.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoiToan/Pods-BoiToan.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DDEC15D21CC09D900ACB318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BEB37F3278A5A8B9965D36 /* libPods-BoiToan.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68791AA2670ACB4A07A626E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E22E8EE550B0C47AE8C518D1 /* Pods-BoiToan.debug.xcconfig */,
+				E892F4001250C482DDE636C6 /* Pods-BoiToan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DDB69D821CEA64E0006D844 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				7DDB69DA21CEA6660006D844 /* Boi */,
+				7DDB69D921CEA6550006D844 /* Home */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		7DDB69D921CEA6550006D844 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7DD03D8121CEC0860060B60A /* BTChiTayViewController.h */,
+				7DD03D8221CEC0860060B60A /* BTChiTayViewController.m */,
+				7DD03D8321CEC0860060B60A /* BTChiTayViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7DDB69DA21CEA6660006D844 /* Boi */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEC17B21CC0B8D00ACB318 /* DALibViewController.h */,
+				7DDEC17C21CC0B8E00ACB318 /* DALibViewController.m */,
+				7DDEC17E21CC0B8E00ACB318 /* DALibViewController.xib */,
+			);
+			path = Boi;
+			sourceTree = "<group>";
+		};
+		7DDB69DB21CEA67E0006D844 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				7D1A673A21D1404A0066C2CD /* datachitayrandom.json */,
+				7DD03D8621CECB120060B60A /* datachitay.json */,
+				7DDEC18321CC0BB100ACB318 /* Lib */,
+				7DDB69AF21CE1B740006D844 /* boitoanso.json */,
+				7DDB69B021CE1B740006D844 /* boitoansodt.json */,
+				7DDEC1A821CC0C9D00ACB318 /* GoogleService-Info.plist */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		7DDEC15721CC09D900ACB318 = {
+			isa = PBXGroup;
+			children = (
+				7DDEC16221CC09D900ACB318 /* BoiToan */,
+				7DDEC16121CC09D900ACB318 /* Products */,
+				68791AA2670ACB4A07A626E3 /* Pods */,
+				948D615D5D7EDC48057512B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DDEC16121CC09D900ACB318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEC16021CC09D900ACB318 /* BoiToan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DDEC16221CC09D900ACB318 /* BoiToan */ = {
+			isa = PBXGroup;
+			children = (
+				7DDB69DB21CEA67E0006D844 /* common */,
+				7DDEC18F21CC0BB800ACB318 /* Resource */,
+				7DDB69D821CEA64E0006D844 /* Screen */,
+				7DDEC16321CC09D900ACB318 /* AppDelegate.h */,
+				7DDEC16421CC09D900ACB318 /* AppDelegate.m */,
+				7D1D571D21D296DA008A92EC /* CMCMNavigationViewController.h */,
+				7D1D571E21D296DA008A92EC /* CMCMNavigationViewController.m */,
+				7DDEC16C21CC09DA00ACB318 /* Assets.xcassets */,
+				7DDEC16E21CC09DA00ACB318 /* LaunchScreen.storyboard */,
+				7DDEC17121CC09DA00ACB318 /* Info.plist */,
+				7DDEC17221CC09DA00ACB318 /* main.m */,
+				7D1D572321D29779008A92EC /* PrefixHeader.pch */,
+			);
+			path = BoiToan;
+			sourceTree = "<group>";
+		};
+		7DDEC18321CC0BB100ACB318 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D572021D29717008A92EC /* UIImage+MSTImage.h */,
+				7D1D572121D29717008A92EC /* UIImage+MSTImage.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		7DDEC18F21CC0BB800ACB318 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D572421D29A4F008A92EC /* img.png */,
+				7D1D571921D290A5008A92EC /* ic_tay.png */,
+				7D1D571821D290A4008A92EC /* ic_tay@2x.png */,
+				7D1D571721D290A4008A92EC /* ic_tay@3x.png */,
+				7D1D570C21D262A4008A92EC /* ic_boi_seleted.png */,
+				7D1D570D21D262A4008A92EC /* ic_boi_seleted@2x.png */,
+				7D1D570B21D262A3008A92EC /* ic_boi_seleted@3x.png */,
+				7DDB69D221CE485D0006D844 /* bg_button.png */,
+				7DDB69D321CE485D0006D844 /* bg_button@2x.png */,
+				7DDB69D121CE485D0006D844 /* bg_button@3x.png */,
+				7DDB69C521CE44620006D844 /* bg_button_dis.png */,
+				7DDB69C721CE44620006D844 /* bg_button_dis@2x.png */,
+				7DDB69C621CE44620006D844 /* bg_button_dis@3x.png */,
+				7DDB69BC21CE3C670006D844 /* ic_boi.png */,
+				7DDB69BB21CE3C670006D844 /* ic_boi@2x.png */,
+				7DDB69BA21CE3C670006D844 /* ic_boi@3x.png */,
+				7DDB69BD21CE3C670006D844 /* ic_lich.png */,
+				7DDB69BE21CE3C670006D844 /* ic_lich@2x.png */,
+				7DDB69B921CE3C670006D844 /* ic_lich@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		948D615D5D7EDC48057512B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BB1BF5E72B2271E5079B449 /* libPods-BoiToan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DDEC15F21CC09D900ACB318 /* BoiToan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDEC17621CC09DA00ACB318 /* Build configuration list for PBXNativeTarget "BoiToan" */;
+			buildPhases = (
+				0197AC35403374D2191F5446 /* [CP] Check Pods Manifest.lock */,
+				7DDEC15C21CC09D900ACB318 /* Sources */,
+				7DDEC15D21CC09D900ACB318 /* Frameworks */,
+				7DDEC15E21CC09D900ACB318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoiToan;
+			productName = BoiToan;
+			productReference = 7DDEC16021CC09D900ACB318 /* BoiToan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DDEC15821CC09D900ACB318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BT;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LongLy;
+				TargetAttributes = {
+					7DDEC15F21CC09D900ACB318 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 7DDEC15B21CC09D900ACB318 /* Build configuration list for PBXProject "BoiToan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DDEC15721CC09D900ACB318;
+			productRefGroup = 7DDEC16121CC09D900ACB318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DDEC15F21CC09D900ACB318 /* BoiToan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DDEC15E21CC09D900ACB318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDB69B121CE1B740006D844 /* boitoanso.json in Resources */,
+				7DDB69C221CE3C670006D844 /* ic_boi.png in Resources */,
+				7DDB69C321CE3C670006D844 /* ic_lich.png in Resources */,
+				7D1D570F21D262A4008A92EC /* ic_boi_seleted.png in Resources */,
+				7DDB69C421CE3C670006D844 /* ic_lich@2x.png in Resources */,
+				7DDB69C021CE3C670006D844 /* ic_boi@3x.png in Resources */,
+				7D1D571C21D290A5008A92EC /* ic_tay.png in Resources */,
+				7D1D570E21D262A4008A92EC /* ic_boi_seleted@3x.png in Resources */,
+				7DDEC17021CC09DA00ACB318 /* LaunchScreen.storyboard in Resources */,
+				7DDB69C821CE44620006D844 /* bg_button_dis.png in Resources */,
+				7DDEC16D21CC09DA00ACB318 /* Assets.xcassets in Resources */,
+				7D1D572521D29A4F008A92EC /* img.png in Resources */,
+				7DD03D8521CEC0860060B60A /* BTChiTayViewController.xib in Resources */,
+				7DDB69D421CE485D0006D844 /* bg_button@3x.png in Resources */,
+				7D1D571021D262A4008A92EC /* ic_boi_seleted@2x.png in Resources */,
+				7D1D571A21D290A5008A92EC /* ic_tay@3x.png in Resources */,
+				7DDB69B221CE1B740006D844 /* boitoansodt.json in Resources */,
+				7DDB69C921CE44620006D844 /* bg_button_dis@3x.png in Resources */,
+				7DDB69D521CE485D0006D844 /* bg_button.png in Resources */,
+				7D1A673B21D1404B0066C2CD /* datachitayrandom.json in Resources */,
+				7DDEC1A921CC0C9D00ACB318 /* GoogleService-Info.plist in Resources */,
+				7D1D571B21D290A5008A92EC /* ic_tay@2x.png in Resources */,
+				7DDB69CA21CE44620006D844 /* bg_button_dis@2x.png in Resources */,
+				7DDB69C121CE3C670006D844 /* ic_boi@2x.png in Resources */,
+				7DD03D8721CECB120060B60A /* datachitay.json in Resources */,
+				7DDB69D621CE485D0006D844 /* bg_button@2x.png in Resources */,
+				7DDEC18221CC0B8F00ACB318 /* DALibViewController.xib in Resources */,
+				7DDB69BF21CE3C670006D844 /* ic_lich@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0197AC35403374D2191F5446 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoiToan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DDEC15C21CC09D900ACB318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1D572221D29717008A92EC /* UIImage+MSTImage.m in Sources */,
+				7DDEC17321CC09DA00ACB318 /* main.m in Sources */,
+				7DDEC16521CC09D900ACB318 /* AppDelegate.m in Sources */,
+				7DDEC18021CC0B8E00ACB318 /* DALibViewController.m in Sources */,
+				7D1D571F21D296DA008A92EC /* CMCMNavigationViewController.m in Sources */,
+				7DD03D8421CEC0860060B60A /* BTChiTayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DDEC16E21CC09DA00ACB318 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DDEC16F21CC09DA00ACB318 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DDEC17421CC09DA00ACB318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DDEC17521CC09DA00ACB318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DDEC17721CC09DA00ACB318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22E8EE550B0C47AE8C518D1 /* Pods-BoiToan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 57YS2XJLTT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = BoiToan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.stywin.xemboi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = disxemboi;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DDEC17821CC09DA00ACB318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E892F4001250C482DDE636C6 /* Pods-BoiToan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 57YS2XJLTT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = BoiToan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.stywin.xemboi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = devxemboi;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DDEC15B21CC09D900ACB318 /* Build configuration list for PBXProject "BoiToan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDEC17421CC09DA00ACB318 /* Debug */,
+				7DDEC17521CC09DA00ACB318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DDEC17621CC09DA00ACB318 /* Build configuration list for PBXNativeTarget "BoiToan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDEC17721CC09DA00ACB318 /* Debug */,
+				7DDEC17821CC09DA00ACB318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DDEC15821CC09D900ACB318 /* Project object */;
+}

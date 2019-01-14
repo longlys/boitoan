@@ -1,0 +1,82 @@
+{
+    "SinhDao":{
+        "0":{
+            "0":"Là người có sức sống, sức khỏe dồi dào, độ lượng, hào phóng",
+            "1":"Là người nóng tính, cục cằn, hơi tàn nhẫn, thô bạo",
+            "2":"Là người yếu đuối, rụt rè, nhút nhát",
+            "3":"Là người thâm trầm, không mạnh dạn"
+        },
+        "1":{
+            "0":"Tính tình rộng rãi, cởi mở, hòa đồng",
+            "1":"Tính tình đa nghi, chặt chẽ, ít hòa đồng"
+        },
+        "2":{
+            "0":"Có nhiều ước mơ, tham vọng, tự tin",
+            "1":"Là người điềm đạm, tự chủ",
+            "2":"Là người rụt rè, trầm lặng, an phận, thiếu tự tin"
+        },
+        "3":{
+            "0":"Tính tình hay cáu bẳn, sức khỏe yếu",
+            "1":"Đề phòng bệnh tật bất ngờ",
+            "2":"Gian khổ, vất vả, hay bị trở ngại trong đời",
+            "3":"Đề phòng tai nạn, bệnh tật bất ngờ",
+            "4":"Có sức sống bền bỉ, dẻo dai, tự tin, kiên trì, dũng cảm"
+        }
+    },
+    "TamDao":{
+        "0":{
+            "0":"Có lòng nhân từ, hảo tâm, tận tụy hết lòng vì gia đình, bè bạn",
+            "1":"Tình cảm sâu sắc, bền bỉ, say mê",
+            "2":"Tình cảm không sâu, không nhiệt tình",
+            "3":"Khô khan, ích kỷ, hay ghen tị"
+        },
+        "1":{
+            "0":"ít nhiệt tình, ưa vật chất",
+            "1":"Có lòng bao dung, thương người"
+        },
+        "2":{
+            "0":"Tình cảm hạn chế, ít thể hiện",
+            "1":"Đề phòng bệnh tim phát đột ngột",
+            "2":"Hay hồi hộp, đề phòng đau tim",
+            "3":"Đề phòng đột tử vì bệnh tim"
+        }
+    },
+    "TriDao":{
+        "0":{
+            "0":"Thần kinh vững vàng, sáng suốt, ít bệnh tật",
+            "1":"Mạnh mẽ, thận trọng, dứt khoát, có chính kiến",
+            "2":"Tinh thần kém tập trung, ít nhậy bén",
+            "3":"Có sự hiểu biết, nhanh nhẹn và tinh tế"
+        },
+        "1":{
+            "0":"Thời nhỏ sống dựa vào cha mẹ nhiều, hơi kém phát triển",
+            "1":"Trí óc cân bằng, phát triển nhanh, thông minh, tự tin"
+        },
+        "2":{
+            "0":"Thiếu nghị lực, hơi nhẹ dạ",
+            "1":"Có nghị lực, khôn ngoan, bền bỉ, dám nghĩ dám làm"
+        },
+        "3":{
+            "0":"Cuộc đời dễ có thay đổi lớn, có thể giàu to",
+            "1":"Hay mệt mỏi, trí nhớ kém, hay nhầm lẫn"
+        }
+    },
+    "Menh":{
+        "0":{
+            "0":"Cuộc đời khá dễ dàng, phẳng lặng",
+            "1":"Cuộc đời nhiều thay đổi, không phẳng lặng",
+            "2":"Cuộc đời bấp bênh, nhiều thay đổi"
+        },
+        "1":{
+            "0":"Thành công trong xã hội về vật chất",
+            "1":"Thắng lợi hoặc thất bại bất ngờ",
+            "2":"Đạt được thắng lợi theo lý tưởng",
+            "3":"Thực hiện được ý muốn thực tế"
+        },
+        "2":{
+            "0":"Có sức sáng tạo dồi dào, hiểu biết rộng, sống lâu",
+            "1":"Có sự thay đổi tốt hoặc xấu, đề phòng bị mất trộm, lừa đảo",
+            "2":"Có thể gặp nhiều cản trở, khó khăn"
+        }
+    }
+}
